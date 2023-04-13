@@ -22,7 +22,6 @@ SELECT `co`.`id`,`co`.`id_plat`,`co`.`date_commande` ,`co`.`nom_client`,`co`.`te
 
 
 
-
 --Ecrire des requêtes de modification de la base de données
  --Ecrivez une requête permettant de supprimer les plats non actif de la base de données
 DELETE FROM `plat` WHERE `active`='No';
